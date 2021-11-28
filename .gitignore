@@ -1,9 +1,14 @@
+# Edit Dir
+.idea
+.project
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+gin_router
 
 # Test binary, built with `go test -c`
 *.test
