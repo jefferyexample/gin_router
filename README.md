@@ -99,6 +99,8 @@ func (c *Default2) Index(g *gin.Context)  {
 
 ## 方法三
 
+改方法编写参照了，beego 对于 [route](https://github.com/beego/beego/blob/v2.0.0/server/web/router.go) (204行)的处理，用 `&` 获取结构体的指针，传入结构体的方法。
+
 **main.go**
 
 ```go
