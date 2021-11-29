@@ -22,7 +22,14 @@ func main() {
 ## 项目的目录展示
 
 ```text
-
+├── README.md
+├── controllers
+│   ├── Default1.go
+│   ├── Default2.go
+│   └── Default3.go
+├── go.mod
+├── go.sum
+└── main.go
 ```
 
 ## 方法一
